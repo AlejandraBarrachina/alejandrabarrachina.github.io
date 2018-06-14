@@ -34,15 +34,15 @@ body {
     position: absolute;
     top: 20%;
     left: 6%;
-    color: #0E2430;
-    font-size: 36pt;
+    color: aliceblue;
+    font-size: 28pt;
     font-weight: bold;
     line-height: 75%;
 }
 
 #disgrafico {
-    color: #0E2430;
-    font-size: 21pt;
+    color: aliceblue;
+    font-size: 18pt;
     font-weight: light;
 }
 
