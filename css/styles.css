@@ -1,5 +1,9 @@
-html body {
+html,
+body {
     margin: 0;
+    background-color: #F6F6F6;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*div {
@@ -22,6 +26,7 @@ html body {
 #inicio {
     position: relative;
     margin-top: 50px;
+    padding: 0px;
 }
 
 #nombreprincipal {
@@ -52,15 +57,21 @@ html body {
     color: aliceblue;
 }
 
+#tituloportfolio {
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 32pt;
+    align-content: center;
+    color: #0E2430;
+}
+
 #portfolio {
-    background-color: #F6F6F6;
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
 #carrusel {
     margin-bottom: 80px;
-    background-color: #F6F6F6;
+    padding: 0px;
 }
 
 #contacto {
@@ -82,4 +93,27 @@ html body {
 
 .icon a:hover {
     color: lightblue;
+}
+
+#politicacookies {
+    opacity: 0.5;
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+
+#politicacookies p {
+    margin: 0px;
+}
+
+#titulocookies {
+    color: white;
+    font-weight: bold;
+}
+
+#textocookies {
+    color: white;
+    font-weight: lighter;
 }
