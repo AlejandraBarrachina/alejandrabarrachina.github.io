@@ -1,0 +1,85 @@
+html body {
+    margin: 0;
+}
+
+/*div {
+    border: 1px solid blue;
+}*/
+
+/*.nopadding {
+    padding: 0px !important;
+}*/
+
+.imagenancha {
+    width: 100%;
+}
+
+.margenes {
+    padding: 6px !important;
+    margin-bottom: 10px;
+}
+
+#inicio {
+    position: relative;
+    margin-top: 50px;
+}
+
+#nombreprincipal {
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    color: #0E2430;
+    font-size: 36pt;
+    font-weight: bold;
+    line-height: 75%;
+}
+
+#disgrafico {
+    color: #0E2430;
+    font-size: 21pt;
+    font-weight: light;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.boldgrande {
+    font-weight: bolder;
+    font-size: 32pt;
+    align-content: center;
+    color: aliceblue;
+}
+
+#portfolio {
+    background-color: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#carrusel {
+    margin-bottom: 80px;
+    background-color: #F6F6F6;
+}
+
+#contacto {
+    background-color: #0E2430;
+    padding-top: 50px;
+}
+
+.icon {
+    font-size: 300%;
+    line-height: 0%;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.icon a {
+    color: aliceblue;
+}
+
+.icon a:hover {
+    color: lightblue;
+}
