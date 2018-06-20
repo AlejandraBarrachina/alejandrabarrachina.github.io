@@ -15,6 +15,10 @@ body {
     padding: 0px !important;
 }*/
 
+p {
+    word-wrap: break-word;
+}
+
 .imagenancha {
     width: 100%;
 }
@@ -44,6 +48,30 @@ body {
     color: aliceblue;
     font-size: 18pt;
     font-weight: light;
+}
+
+#imagenpersonal {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.sobremi {
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-top: 150px;
+    text-align: justify;
+
+}
+
+.titulosobremi {
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+}
+
+.textosobremi {
+    font-size: 11pt;
 }
 
 .carousel-inner img {
