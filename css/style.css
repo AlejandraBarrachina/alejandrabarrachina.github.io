@@ -21,36 +21,38 @@
 
 /*** 01. Custom CSS ***/
 
-.social-links{
+.ee-subtitle-fix {
+    margin-bottom: 3px !important;
+}
+
+.social-links {
     margin-top: 5%;
     text-align: center;
     display: block;
 }
 
-.social-links a{
+.social-links a {
     color: #888;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     color: #888;
     font-size: 1.2em;
 }
 
-.custom-margin
-{
+.custom-margin {
     margin: 5% !important;
 }
 
-.z-positioned
-{
+.z-positioned {
     z-index: -10000;
     position: relative;
 }
 
-.white-background
-{
+.white-background {
     padding: 10px;
     background-color: #fff;
+    margin-bottom: 10px;
 }
 
 /*** 02. Default styles ***/
@@ -377,7 +379,6 @@ input[type="checkbox"] {
 
 
 /*** 04. Header styles ***/
-
 
 /* header navbar */
 
@@ -905,7 +906,7 @@ footer {
 .ee-text-home {
     background: #fff;
     width: 80%;
-    padding: 20px;
+    padding: 20px !important;
     position: relative;
     z-index: 99;
     margin: -60px auto 30px auto;
