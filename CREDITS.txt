@@ -1,0 +1,11 @@
+Credits:
+
+	Original Template:
+		HTML5 UP (html5up.net - CCA 3.0 licensed)
+			"Aerial" (https://html5up.net/aerial)
+
+	Icons:
+		Font Awesome (fontawesome.io)
+
+	Other:
+		Responsive Tools (github.com/ajlkn/responsive-tools)
