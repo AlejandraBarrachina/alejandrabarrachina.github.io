@@ -86,6 +86,11 @@ body
 	animation-delay: 1.4s;
 }
 
+#content nav li:nth-child(4)
+{
+	animation-delay: 1.6s;
+}
+
 #content nav a
 {
 	display: inline-block;
