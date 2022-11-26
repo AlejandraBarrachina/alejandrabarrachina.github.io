@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+body
+{
+	background-color: floralwhite;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15pt;
+	letter-spacing: -0.025em;
+	line-height: 1.75em;
+}
+
+.icon
+{
+	font-family: FontAwesome;
+	text-decoration: none;
+}
+
+#main
+{
+	height: 100%;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+
+#main:before
+{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#content
+{
+	animation: fade-in 0.5s 0.5s forwards;
+	display: inline-block;
+	opacity: 0;
+	vertical-align: middle;
+	width: 90%;
+}
+
+#content h1
+{
+	font-size: 4.35em;
+	font-weight: 900;
+	letter-spacing: -0.035em;
+	line-height: 1em;
+	margin: 0;
+}
+
+#content p
+{
+	font-size: 1.25em;
+}
+
+#content nav ul
+{
+	padding-left: 0px;
+}
+
+#content nav li
+{
+	animation: fade-in 0.2s ease-in-out forwards;
+	display: inline-block;
+	line-height: 6em;
+	opacity: 0;
+	width: 5.35em;
+}
+
+#content nav li:nth-child(1)
+{
+	animation-delay: 1s;
+}
+
+#content nav li:nth-child(2)
+{
+	animation-delay: 1.2s;
+}
+
+#content nav li:nth-child(3)
+{
+	animation-delay: 1.4s;
+}
+
+#content nav li:nth-child(4)
+{
+	animation-delay: 1.6s;
+}
+
+#content nav a
+{
+	display: inline-block;
+	color: black;
+}
+
+#content nav a:before
+{
+	transition: all 0.2s ease-in-out;
+	border-radius: 100%;
+	border: solid 1px;
+	display: block;
+	font-size: 1.75em;
+	line-height: 2.5em;
+	width: 2.5em;
+}
+
+#content nav a:hover
+{
+	font-size: 1.1em;
+}
+
+#content nav a:active
+{
+	font-size: 0.95em;
+}
+
+@media screen and (max-width: 1200px)
+{
+	body
+	{
+		font-size: 12pt;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	body
+	{
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	body
+	{
+		font-size: 10pt;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	body
+	{
+		font-size: 9pt;
+	}
+}
+
+@keyframes fade-in
+{
+	0%
+	{
+		transform: translate3d(0,1em,0);
+		opacity: 0;
+	}
+
+	100%
+	{
+		transform: translate3d(0,0,0);
+		opacity: 1;
+	}
+}
