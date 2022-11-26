@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url("font-awesome.min.css");
-@import url("animations.css");
-
-html
-{
-	background-color: floralwhite;
-}
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 
 body
 {
+	background-color: floralwhite;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15pt;
-	font-weight: 300;
 	letter-spacing: -0.025em;
 	line-height: 1.75em;
 }
@@ -42,20 +36,11 @@ body
 
 #content
 {
-	-moz-animation: content 0.5s 0.5s forwards;
-	-webkit-animation: content 0.5s 0.5s forwards;
-	-ms-animation: content 0.5s 0.5s forwards;
-	animation: content 0.5s 0.5s forwards;
-	
+	animation: fade-in 0.5s 0.5s forwards;
 	display: inline-block;
 	opacity: 0;
 	vertical-align: middle;
 	width: 90%;
-}
-
-#content a
-{
-	color: black;
 }
 
 #content h1
@@ -74,80 +59,47 @@ body
 
 #content nav ul
 {
-	list-style: none;
-	margin-top: 10px;
 	padding-left: 0px;
 }
 
 #content nav li
 {
-	-moz-animation: nav-icons 0.2s ease-in-out forwards;
-	-webkit-animation: nav-icons 0.2s ease-in-out forwards;
-	-ms-animation: nav-icons 0.2s ease-in-out forwards;
-	animation: nav-icons 0.2s ease-in-out forwards;
-	
+	animation: fade-in 0.2s ease-in-out forwards;
 	display: inline-block;
-	height: 5.5em;
-	line-height: 5.5em;
+	line-height: 6em;
 	opacity: 0;
-	position: relative;
-	top: 0;
 	width: 5.35em;
 }
 
 #content nav li:nth-child(1)
 {
-	-moz-animation-delay: 1s;
-	-webkit-animation-delay: 1s;
-	-ms-animation-delay: 1s;
 	animation-delay: 1s;
 }
 
 #content nav li:nth-child(2)
 {
-	-moz-animation-delay: 1.2s;
-	-webkit-animation-delay: 1.2s;
-	-ms-animation-delay: 1.2s;
 	animation-delay: 1.2s;
 }
 
 #content nav li:nth-child(3)
 {
-	-moz-animation-delay: 1.4s;
-	-webkit-animation-delay: 1.4s;
-	-ms-animation-delay: 1.4s;
 	animation-delay: 1.4s;
-}
-
-#content nav li:nth-child(4)
-{
-	-moz-animation-delay: 1.6s;
-	-webkit-animation-delay: 1.6s;
-	-ms-animation-delay: 1.6s;
-	animation-delay: 1.6s;
 }
 
 #content nav a
 {
 	display: inline-block;
+	color: black;
 }
 
 #content nav a:before
 {
-	-moz-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	
 	border-radius: 100%;
 	border: solid 1px;
 	display: block;
 	font-size: 1.75em;
-	height: 2.5em;
 	line-height: 2.5em;
-	position: relative;
-	text-align: center;
-	top: 0;
 	width: 2.5em;
 }
 
@@ -169,23 +121,7 @@ body
 	}
 }
 
-@media screen and (max-width: 1024px)
-{
-	body
-	{
-		font-size: 12pt;
-	}
-}
-
 @media screen and (max-width: 900px)
-{
-	body
-	{
-		font-size: 11pt;
-	}
-}
-
-@media screen and (max-width: 768px)
 {
 	body
 	{
@@ -201,18 +137,25 @@ body
 	}
 }
 
-@media screen and (max-width: 480px)
-{
-	body
-	{
-		font-size: 10pt;
-	}
-}
-
 @media screen and (max-width: 320px)
 {
 	body
 	{
 		font-size: 9pt;
+	}
+}
+
+@keyframes fade-in
+{
+	0%
+	{
+		transform: translate3d(0,1em,0);
+		opacity: 0;
+	}
+
+	100%
+	{
+		transform: translate3d(0,0,0);
+		opacity: 1;
 	}
 }
